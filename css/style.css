@@ -1,5 +1,5 @@
 body{
-	background-color: lightgrey;
+	background-color: lightyellow;
 	margin: 2%;
 
 }
@@ -27,6 +27,9 @@ nav{
 h2{
 	background-color: #00b7ea;
 	font-family:  sans-serif;
+	color:black;
+	font-family: impact,Charcoal,sans-serif;
+	font-size: 25px;
 
 
 }
@@ -48,6 +51,8 @@ img{
 }
 ul{
 	font-family: Impact,Charcoal,sans-serif;
+	list-style-image: url(heart.png);
+
 }
 figcaption{
 	font-variant-position: left;
@@ -61,7 +66,7 @@ summary{
 p{
 	font-family: "Comic Sans Ms",cursive,sans-serif;
 	font-variant-caps: all-petite-caps;
-	background-color: #DC143C;
+	background-color: pink;
 }
 a {
   background-color: blue;
@@ -73,12 +78,22 @@ a {
   text-transform: uppercase;
 }
 
+a:visited {
+  background-color:yellow;
+}
 a:hover {
    cursor: pointer;
+   color: #0006cc;
+   background:#b3b3b3;
 }
-a:visited {
-  background-color: #7fff00;
+a:focus{
+	background:#b3b3b3;
+	color: #0006cc;
 }
+a:active{
+	border:5px solid red; 
+}
+
 
 h4{
 	text-align: center;
@@ -91,8 +106,8 @@ h4{
 }
 progress{
      color: red;
-     background-color: red;
+     background-color: green;
 }
 summary{
-	color: red;
+	 color: red;
 }
